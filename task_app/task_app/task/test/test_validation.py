@@ -2,6 +2,7 @@ import unittest
 from ..validators import TaskValidator
 from ..exceptions import ValidationError
 
+
 class TestTaskValidator(unittest.TestCase):
     """Unit tests for TaskValidator"""
 
