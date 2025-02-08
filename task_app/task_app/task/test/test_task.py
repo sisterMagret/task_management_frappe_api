@@ -1,7 +1,6 @@
-import frappe
 import unittest
-from task_app.services import TaskService
-from task_app.exceptions import NotFoundError
+from ..services import TaskService
+from ..exceptions import NotFoundError
 
 class TestTaskService(unittest.TestCase):
     def test_create_task(self):

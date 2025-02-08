@@ -1,7 +1,6 @@
 import unittest
-import frappe
-from task_app.services import TaskService
-from task_app.exceptions import NotFoundError, ValidationError
+from ..services import TaskService
+from ..exceptions import NotFoundError
 
 class TestTaskService(unittest.TestCase):
     def setUp(self):

@@ -1,7 +1,7 @@
 import unittest
 import frappe
-from task_app.utils import CacheManager
-from task_app.services import TaskService
+from ..utils import CacheManager
+from ..services import TaskService
 
 class TestCacheManager(unittest.TestCase):
     def setUp(self):

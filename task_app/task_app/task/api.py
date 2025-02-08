@@ -1,6 +1,6 @@
 import frappe
-from task_app.services import TaskService
-from task_app.exceptions import NotFoundError, ValidationError
+from .services import TaskService
+from .exceptions import NotFoundError, ValidationError
 
 @frappe.whitelist(allow_guest=False)
 def create_task(title, description):

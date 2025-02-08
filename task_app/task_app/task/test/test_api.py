@@ -1,6 +1,6 @@
 import unittest
 import frappe
-from task_app.api import create_task, get_task, update_task, delete_task
+from ..api import create_task, get_task, update_task, delete_task
 
 class TestTaskAPI(unittest.TestCase):
     def setUp(self):
